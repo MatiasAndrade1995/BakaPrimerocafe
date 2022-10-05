@@ -111,12 +111,12 @@ ul {
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.8);
     box-shadow: 1px 1px 8px black;
-    transform: translateY(-770px);
+    transform: translateY(-95%);
     transition: 1s;
 }
 
 .navMobile:hover {
-    transform: translateY(-50px);
+    transform: translateY(-5%);
     justify-content: flex-end;
     align-items: stretch;
     padding: 40px 0px;
