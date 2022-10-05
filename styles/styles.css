@@ -1,0 +1,1387 @@
+/* SETEO DEFAULT */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* SETEO DEFAULT */
+
+/*-------- HEADER DE PAGINAS ----------*/
+.logoHeader {
+    width: 14vw;
+    width: 100%;
+    transform: rotate(-8deg);
+    transition: 1s;
+}
+
+.logoHeader:hover {
+    width: 17vw;
+}
+
+header {
+    margin-top: 50px;
+}
+
+.boxTitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.titleAndSubtitle {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid black;
+    padding: 0px 15px;
+    margin: 10px auto;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.titleAndSubtitle a {
+    color: black !important;
+}
+
+h1 {
+    text-decoration: none;
+    color: black;
+    font-family: 'Bree Serif', serif;
+    font-size: 5vw;
+
+}
+
+h2 {
+    text-decoration: none;
+    color: black;
+    font-family: 'Oleo Script', cursive;
+    font-size: 3vw;
+}
+
+.navDesktop {
+    width: 100%;
+    margin: 30px auto;
+
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0px;
+}
+
+.navDesktop ul li {
+    border: 2px solid black;
+    border-right: 0px solid black;
+    padding: 0px 10px;
+    margin: 0px;
+    color: black;
+    transition: 0.5s ease;
+
+}
+
+.navDesktop ul li:hover {
+    background-color: rgba(212, 212, 212, 0.918);
+
+}
+
+.navDesktop ul li a {
+    color: black;
+    font-size: 2.3vw;
+    font-family: 'Baloo 2', cursive;
+}
+
+.navMobile {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 1px 1px 8px black;
+    transform: translateY(-770px);
+    transition: 1s;
+}
+
+.navMobile:hover {
+    transform: translateY(-50px);
+    justify-content: flex-end;
+    align-items: stretch;
+    padding: 40px 0px;
+    height: 80vh;
+}
+
+.navMobile ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navMobile:hover {
+    justify-content: space-around;
+}
+
+.navMobile ul li {
+
+    border-top: 2px solid rgb(255, 255, 255);
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.navMobile ul li:first-child {
+    border-top: none;
+
+}
+
+.navMobile ul li a {
+    color: rgb(238, 238, 238);
+    font-family: 'Baloo 2', cursive;
+    font-size: 5vw;
+}
+
+
+.active {
+    background-color: rgb(240, 240, 240);
+    font-weight: bold;
+    font-style: italic;
+}
+
+.navTuOpinion {
+    border-right: 2px solid black !important;
+}
+
+/*---------- FIN HEADER DE PAGINAS ------------- */
+
+/* --------- INICIO DE MAIN DE PAGINA INDEX ----------*/
+
+.imageHistoriaLocal {
+    box-shadow: 0px 0px 15px rgb(141, 141, 141);
+    padding: 0px;
+    width: 400px;
+}
+
+.boxImageHistoriaLocal {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 10px 0px;
+
+}
+
+section {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0px auto;
+}
+
+main {
+    margin-top: 20px;
+}
+
+
+main p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    font-size: 25px;
+    padding: 0px 20px;
+    line-height: 1.5;
+}
+
+article {
+    justify-content: center;
+    width: 100%;
+}
+
+.palabraBaka {
+    font-weight: bold;
+}
+
+.boton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+
+
+.boton a {
+    display: inline-block;
+    background-color: rgb(238, 238, 238);
+    text-decoration: none;
+    font-size: 3vw;
+    text-align: center;
+    border: 1px black solid;
+    padding: 20px;
+    color: black;
+    margin: 30px 0px 30px 0px;
+    font-family: 'Oleo Script';
+    transition: 0.5s;
+
+}
+
+.boton a:hover {
+    box-shadow: 0px 0px 10px rgb(141, 141, 141);
+    font-size: 4vw;
+    padding: 10px 20px;
+}
+
+/* -------FIN DE MAIN DE PAGINA INDEX------- */
+
+/* -----INICIO DE MAIN DE PAGINA NUESTRASDELICIAS----- */
+
+.listaProductos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin: 30px auto
+}
+
+.listaProductos a {
+    color: black !important;
+}
+
+.bordePostre {
+    border-right: 2px solid black;
+}
+
+.producto {
+    border: 2px solid black;
+    padding: 0px 15px;
+    color: black;
+    font-size: 2vw;
+    text-align: center;
+    font-family: 'Oleo Script';
+    background-color: rgb(228, 228, 228);
+}
+
+
+.seccionProductos {
+    display: grid;
+    grid-template-rows: 4;
+}
+
+.seccionProductos img {
+    width: 300px;
+    height: 380px;
+    object-fit: cover;
+    box-shadow: 0px 0px 10px rgb(141, 141, 141);
+}
+
+.cafes {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+}
+
+.titleCafes {
+    text-align: center;
+    border-bottom: 2px solid black;
+    color: black;
+    font-size: 100px;
+    margin: 10px 40px;
+}
+
+.boxImagesCafes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    align-items: stretch;
+    width: 100%;
+}
+
+.boxImagesCafes div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0px 10px;
+    width: 400px;
+    font-size: 25px;
+    text-decoration: underline 1px;
+    font-family: 'Oleo Script', cursive;
+}
+
+.titleCookies {
+    text-align: center;
+    border-bottom: 2px solid black;
+    color: black;
+    font-size: 100px;
+    margin: 10px 40px;
+}
+
+.boxImagesCookies {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    align-items: stretch;
+    width: 100%;
+}
+
+.boxImagesCookies div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0px 10px;
+    width: 400px;
+    font-size: 25px;
+    text-decoration: underline 1px;
+    font-family: 'Oleo Script', cursive;
+}
+
+.titlePorciones {
+    text-align: center;
+    border-bottom: 2px solid black;
+    color: black;
+    font-size: 100px;
+    margin: 10px 40px;
+}
+
+.boxImagesPorciones {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    align-items: stretch;
+    width: 100%;
+}
+
+.boxImagesPorciones div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0px 10px;
+    width: 400px;
+    font-size: 25px;
+    text-decoration: underline 1px;
+    font-family: 'Oleo Script', cursive;
+}
+
+.titlePostres {
+    text-align: center;
+    border-bottom: 2px solid black;
+    color: black;
+    font-size: 100px;
+    margin: 10px 40px;
+}
+
+.boxImagesPostres {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    align-items: stretch;
+    width: 100%;
+}
+
+.boxImagesPostres div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0px 10px;
+    width: 400px;
+    font-size: 25px;
+    text-decoration: underline 1px;
+    font-family: 'Oleo Script', cursive;
+}
+
+/* -----FIN DE MAIN DE PAGINA NUESTRASDELICIAS----- */
+
+/*-------- INICIO FOOTER DE PAGINAS--------- */
+footer {
+    background-color: rgb(218, 218, 218);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 90px;
+}
+
+.CopyrightMatiasAndrade {
+    justify-content: start;
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bakaEslogan {
+    justify-content: center;
+    text-align: center;
+    font-family: 'Oleo Script', cursive;
+    font-size: 20px;
+
+
+}
+
+.bakaEslogan a {
+    color: black;
+}
+
+.iconos {
+    justify-content: center;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.iconos a {
+    padding: 0px 15px;
+}
+
+
+.iconos img {
+    width: 45px;
+}
+
+/*------- FIN DE FOOTER DE PAGINAS --------- */
+
+/* INICIO PAGINA PROBALO */
+
+.opcionesDeProbalo img {
+    width: 340px;
+    box-shadow: 0px 0px 14px rgb(135, 135, 135);
+    transition: 0.5s;
+}
+
+.opcionesDeProbalo img:hover {
+    width: 350px;
+}
+
+.opcionesDeProbalo div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 30px;
+    width: 100%;
+}
+
+.opcionesDeProbalo p {
+    height: 30%;
+    font-size: 20px;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Baloo 2', cursive;
+}
+
+
+.opcionesDeProbalo div a {
+    display: inline-block;
+    padding-bottom: 20px;
+    height: 100%;
+
+}
+
+/* FIN PAGINA PROBALO */
+
+/* INICIO PAGINA DONDE ESTAMOS */
+
+.articleDondeEstamos div div a {
+    color: black;
+    font-family: 'Baloo 2', cursive;
+    font-size: 15px;
+}
+
+.datosContactoLocal img {
+    width: 60px;
+}
+
+.datosContactoLocal a {
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.datosContactoLocal p {
+    font-size: 30px;
+}
+
+.datosContactoLocal div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 0px 20px 40px;
+    width: 100%;
+    ;
+}
+
+.imagenLocal {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid black;
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-family: 'Oleo Script';
+    align-items: center;
+
+}
+
+.imagenLocal img {
+    width: 400px;
+    height: 400px;
+    margin-bottom: 20px;
+    object-fit: cover;
+    box-shadow: 0px 0px 10px rgb(141, 141, 141);
+}
+
+
+
+.ubicacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagenUbicacion {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid black;
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-family: 'Oleo Script';
+    align-items: center;
+}
+
+.mapa {
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px rgb(141, 141, 141);
+}
+
+.datosUbicacion div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 0px 20px 0px;
+    width: 100%;
+}
+
+.datosUbicacion img {
+    width: 60px;
+}
+
+.datosUbicacion a {
+    padding-left: 20px;
+}
+
+.local {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* FIN DE PAGINA DONDE ESTAMOS */
+
+/* INICIO PAGINA TU OPINION */
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+}
+
+.datosCliente{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 20px;
+    font-family: 'Baloo 2', cursive;
+}
+
+.opinion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px auto;
+    padding: 20px 100px;
+    font-size: 15px;
+}
+
+.opinion label{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Baloo 2', cursive;
+    font-size: 25px;
+}
+
+
+.botonesFormulario{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-top: 20px;
+}
+
+.botonesFormulario input{
+    margin: 0px 10px;
+    padding: 0px 10px;
+}
+
+
+/* --------- RESPONSIVE --------- */
+@media only screen and (min-width:260px) and (max-width:576px) {
+
+    h1 {
+        font-size: 25px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .navDesktop {
+        display: none;
+    }
+
+    .navMobile {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logoHeader {
+        display: none;
+    }
+
+    main p {
+        font-size: 12px;
+    }
+
+    .imageHistoriaLocal {
+        width: 200px;
+    }
+
+    .boton {
+        width: 100px;
+        margin: 0px auto;
+
+    }
+
+    .boton a {
+        font-size: 12px;
+    }
+
+    .iconos img {
+        width: 30px;
+
+    }
+
+    .titleCafes {
+        width: 200px;
+    }
+
+    .listaProductos {
+        display: flex;
+        flex-direction: column;
+        width: 150px;
+    }
+
+    .listaProductos a {
+        font-size: 18px;
+    }
+
+    .seccionProductos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .seccionProductos article {
+        width: 220px;
+    }
+
+    .seccionProductos h2 {
+        font-size: 40px;
+    }
+
+    .seccionProductos article div div {
+        width: 220px;
+        padding-bottom: 20px;
+        font-size: 15px;
+    }
+
+    .seccionProductos .boton {
+        width: 150px;
+    }
+
+    .seccionProductos .boton a {
+        font-size: 15px;
+
+    }
+
+    .boxImagesCafes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    .boxImagesCookies {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    .boxImagesPorciones {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    .boxImagesPostres {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .seccionProductos img {
+        width: 200px;
+        height: 280px;
+    }
+
+    .imagenLocal {
+        width: 210px;
+        font-size: 25px;
+    }
+
+    .imagenLocal img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .imagenUbicacion {
+        width: 210px;
+        font-size: 25px;
+    }
+
+    iframe {
+        width: 200px;
+        height: 200px;
+    }
+
+    .articleDondeEstamos div div a {
+        font-size: 12px;
+    }
+
+    .datosContactoLocal img {
+        width: 30px;
+    }
+
+    .datosUbicacion img {
+        width: 30px;
+    }
+
+    .datosContactoLocal div{
+        padding: 0px 0px 20px 0px;
+    }
+
+        
+    .opcionesDeProbalo img{
+        width: 200px;
+    }
+
+        .opcionesDeProbalo p{
+            font-size: 15px;
+        }
+
+
+.datosCliente{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.datosCliente div{
+    width: 180px;
+    padding-top: 20px;
+}
+
+.datosCliente input{
+    width: 160px
+}
+
+
+.opinion{
+    width: 180px;
+    justify-content: center;
+    align-items: center;
+}
+
+.opinion label{
+    font-size: 20px;
+    width: 100px;
+}
+
+.opinion textarea {
+    width: 80vw;
+}
+
+}
+
+@media only screen and (min-width:577px) and (max-width:768px) {
+
+    .logoHeader {
+        width: 100px;
+    }
+
+
+    main p {
+        font-size: 14px
+    }
+
+    .imageHistoriaLocal {
+        width: 230px;
+    }
+
+    .iconos img {
+        width: 35px;
+    }
+
+
+
+    .listaProductos {
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+    }
+
+
+    .listaProductos a {
+        font-size: 25px;
+    }
+
+    .seccionProductos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .seccionProductos article {
+        width: 450px;
+    }
+
+
+    .seccionProductos h2 {
+        font-size: 80px;
+    }
+
+
+    .seccionProductos article div div {
+        width: 450px;
+        padding-bottom: 20px;
+        font-size: 20px;
+    }
+
+    .seccionProductos .boton {
+        width: 250px;
+    }
+
+    .seccionProductos .boton a {
+        font-size: 25px;
+
+    }
+
+    .boxImagesCafes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    .boxImagesCookies {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    .boxImagesPorciones {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    .boxImagesPostres {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+
+    .seccionProductos img {
+        width: 300px;
+        height: 380px;
+
+    }
+
+.datosCliente {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.datosCliente div {
+    width: 180px;
+    padding-top: 20px;
+}
+
+.datosCliente input {
+    width: 160px
+}
+
+
+.opinion {
+    width: 180px;
+    justify-content: center;
+    align-items: center;
+}
+
+.opinion label {
+    font-size: 20px;
+    width: 100px;
+}
+
+.opinion textarea {
+    width: 80vw;
+}
+
+
+
+}
+
+
+@media only screen and (min-width:769px) and (max-width:920px) {
+    .logoHeader {
+        width: 120px;
+    }
+
+    .imageHistoriaLocal {
+        width: 380px;
+
+
+    }
+
+    .iconos img {
+        width: 33px;
+    }
+
+    .listaProductos {
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+    }
+
+
+    .listaProductos a {
+        font-size: 25px;
+    }
+
+    .seccionProductos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .seccionProductos article {
+        width: 650px;
+    }
+
+
+    .seccionProductos h2 {
+        font-size: 100px;
+    }
+
+    .seccionProductos article div div {
+        width: 450px;
+        padding-bottom: 20px;
+        font-size: 30px;
+    }
+
+    .seccionProductos .boton {
+        width: 250px;
+    }
+
+    .seccionProductos .boton a {
+        font-size: 25px;
+
+    }
+
+    .boxImagesCafes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    .boxImagesCookies {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    .boxImagesPorciones {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    .boxImagesPostres {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+
+
+    .seccionProductos img {
+        width: 300px;
+        height: 380px;
+
+    }
+
+.datosCliente {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.datosCliente div {
+    width: 180px;
+    padding-top: 20px;
+}
+
+.datosCliente input {
+    width: 160px
+}
+
+
+.opinion {
+    width: 180px;
+    justify-content: center;
+    align-items: center;
+}
+
+.opinion label {
+    font-size: 20px;
+    width: 100px;
+}
+
+.opinion textarea {
+    width: 80vw;
+}
+
+
+}
+
+@media only screen and (min-width:921px) and (max-width:1200px) {
+
+    .imageHistoriaLocal {
+        width: 340px;
+    }
+
+    main p {
+        font-size: 25px;
+    }
+
+
+    .listaProductos {
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+    }
+
+
+    .listaProductos a {
+        font-size: 25px;
+    }
+
+    .seccionProductos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .seccionProductos article {
+        width: 650px;
+    }
+
+
+    .seccionProductos h2 {
+        font-size: 100px;
+    }
+
+
+    .seccionProductos article div div {
+        width: 450px;
+        padding-bottom: 20px;
+        font-size: 30px;
+    }
+
+    .seccionProductos .boton {
+        width: 250px;
+    }
+
+    .seccionProductos .boton a {
+        font-size: 25px;
+
+    }
+
+    .boxImagesCafes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    .boxImagesCookies {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    .boxImagesPorciones {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    .boxImagesPostres {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    .seccionProductos img {
+        width: 300px;
+        height: 380px;
+
+    }
+
+    .ubicacion{
+        align-items: center;
+    }
+
+}
+
+@media only screen and (min-width:260px) and (max-width:991px) {
+    main p {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width:1201px) and (max-width:1550px) {
+    main p {
+        font-size: 30px;
+    }
+
+    .imageHistoriaLocal {
+        width: 400px;
+    }
+}
+
+@media (min-width:1551px) {
+    .imageHistoriaLocal {
+        width: 450px;
+    }
+
+    main p {
+        font-size: 35px;
+    }
+}
+
+@media (min-width:577px) {
+    .navDesktop {
+        display: block;
+    }
+
+    .navMobile {
+        display: none;
+    }
+}
+@media (max-width: 1200px){
+    .ubicacion {
+            align-items: center;
+          
+}
+}    
+
+
+
+/* -------- FIN RESPONSIVE --------- */
+
+/* --------- INICIO ANIMACIONES--------- */
+
+.logoHeader {
+    animation-duration: 0.8s;
+    animation-name: rotacion;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotacion {
+
+    25% {
+        transform: rotate(10deg);
+    }
+
+    50% {
+        transform: rotate(12deg);
+    }
+
+    75% {
+        transform: rotate(-15deg);
+    }
+
+    100% {
+        transform: rotate(-10deg);
+    }
+
+
+}
+
+main p {
+    animation-duration: 1.5s;
+    animation-name: aparecerPorIzquierda;
+    animation-iteration-count: 1;
+}
+
+.local {
+    animation-duration: 1.5s;
+    animation-name: aparecerPorIzquierda;
+    animation-iteration-count: 1;
+
+}
+
+@keyframes aparecerPorIzquierda {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0px)
+    }
+}
+
+.imageHistoriaLocal {
+    animation-duration: 1.5s;
+    animation-name: aparecerPorDerecha;
+    animation-iteration-count: 1;
+}
+
+.ubicacion {
+    animation-duration: 1.5s;
+    animation-name: aparecerPorDerecha;
+    animation-iteration-count: 1;
+}
+
+@keyframes aparecerPorDerecha {
+    0% {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0px)
+    }
+}
+
+.boton {
+    animation-duration: 1.5s;
+    animation-name: aparecer;
+    animation-iteration-count: 1;
+}
+
+.seccionProductos {
+    animation-duration: 1.5s;
+    animation-name: aparecer;
+    animation-iteration-count: 1;
+}
+
+.opcionesDeProbalo {
+    animation-duration: 1.5s;
+    animation-name: aparecer;
+    animation-iteration-count: 1;
+
+}
+
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+
+    
+}
+
+/*---------- FIN ANIMACIONES------------ */
