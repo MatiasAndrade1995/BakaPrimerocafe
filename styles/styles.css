@@ -46,7 +46,7 @@ header {
 }
 
 .titleAndSubtitle a {
-    color: black !important;
+    color: black;
 }
 
 h1 {
@@ -160,9 +160,9 @@ ul {
     font-style: italic;
 }
 
-.navTuOpinion {
-    border-right: 2px solid black !important;
-}
+ .navDesktop ul li:last-child{
+    border-right: 2px solid black;
+ }
 
 /*---------- FIN HEADER DE PAGINAS ------------- */
 
@@ -257,7 +257,7 @@ article {
 }
 
 .listaProductos a {
-    color: black !important;
+    color: black;
 }
 
 .bordePostre {
