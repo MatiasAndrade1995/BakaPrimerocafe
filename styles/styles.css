@@ -13,7 +13,7 @@ html {
 
 /*-------- HEADER DE PAGINAS ----------*/
 .logoHeader {
-    width: 14vw;
+    width: 15vw;
     width: 100%;
     transform: rotate(-8deg);
     transition: 1s;
@@ -64,105 +64,7 @@ h2 {
     font-size: 3vw;
 }
 
-.navDesktop {
-    width: 100%;
-    margin: 30px auto;
 
-}
-
-ul {
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: 0px;
-}
-
-.navDesktop ul li {
-    border: 2px solid black;
-    border-right: 0px solid black;
-    padding: 0px 10px;
-    margin: 0px;
-    color: black;
-    transition: 0.5s ease;
-
-}
-
-.navDesktop ul li:hover {
-    background-color: rgba(212, 212, 212, 0.918);
-
-}
-
-.navDesktop ul li a {
-    color: black;
-    font-size: 2.3vw;
-    font-family: 'Baloo 2', cursive;
-}
-
-.navMobile {
-    display: flex;
-    justify-content: space-around;
-    align-items: stretch;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 2;
-    width: 100%;
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.8);
-    box-shadow: 1px 1px 8px black;
-    transform: translateY(-95%);
-    transition: 1s;
-}
-
-.navMobile:hover {
-    transform: translateY(-5%);
-    justify-content: flex-end;
-    align-items: stretch;
-    padding: 40px 0px;
-    height: 80vh;
-}
-
-.navMobile ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 100%;
-}
-
-.navMobile:hover {
-    justify-content: space-around;
-}
-
-.navMobile ul li {
-
-    border-top: 2px solid rgb(255, 255, 255);
-    width: 100%;
-    text-align: center;
-    padding-top: 30px;
-}
-
-.navMobile ul li:first-child {
-    border-top: none;
-
-}
-
-.navMobile ul li a {
-    color: rgb(238, 238, 238);
-    font-family: 'Baloo 2', cursive;
-    font-size: 5vw;
-}
-
-
-.active {
-    background-color: rgb(240, 240, 240);
-    font-weight: bold;
-    font-style: italic;
-}
-
- .navDesktop ul li:last-child{
-    border-right: 2px solid black;
- }
 
 /*---------- FIN HEADER DE PAGINAS ------------- */
 
@@ -170,14 +72,13 @@ ul {
 
 .imageHistoriaLocal {
     box-shadow: 0px 0px 15px rgb(141, 141, 141);
-    padding: 0px;
-    width: 400px;
 }
 
 .boxImageHistoriaLocal {
     display: flex;
     justify-content: center;
     width: 100%;
+    height: 100%;
     margin: 10px 0px;
 
 }
@@ -462,13 +363,12 @@ footer {
 /* INICIO PAGINA PROBALO */
 
 .opcionesDeProbalo img {
-    width: 340px;
     box-shadow: 0px 0px 14px rgb(135, 135, 135);
     transition: 0.5s;
 }
 
 .opcionesDeProbalo img:hover {
-    width: 350px;
+    width: 31vw;
 }
 
 .opcionesDeProbalo div {
@@ -483,7 +383,7 @@ footer {
 
 .opcionesDeProbalo p {
     height: 30%;
-    font-size: 20px;
+    font-size: 2vw;
     justify-content: center;
     text-align: center;
     font-family: 'Baloo 2', cursive;
@@ -507,9 +407,7 @@ footer {
     font-size: 15px;
 }
 
-.datosContactoLocal img {
-    width: 60px;
-}
+
 
 .datosContactoLocal a {
     font-size: 20px;
@@ -541,8 +439,6 @@ footer {
 }
 
 .imagenLocal img {
-    width: 400px;
-    height: 400px;
     margin-bottom: 20px;
     object-fit: cover;
     box-shadow: 0px 0px 10px rgb(141, 141, 141);
@@ -579,8 +475,12 @@ footer {
     width: 100%;
 }
 
+.datosContactoLocal img {
+    width: 3vw;
+}
+
 .datosUbicacion img {
-    width: 60px;
+    width: 3vw;
 }
 
 .datosUbicacion a {
@@ -597,7 +497,7 @@ footer {
 
 /* INICIO PAGINA TU OPINION */
 
-.formulario{
+.formulario {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -606,21 +506,22 @@ footer {
     width: 85vw;
     margin: 0px auto;
     padding: 30px 0px;
-    font-family: 'Baloo 2', cursive; ;
+    font-family: 'Baloo 2', cursive;
+    ;
 
 }
 
-.datosCliente{
+.datosCliente {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
 }
 
-.datosCliente div{
+.datosCliente div {
     padding-top: 10px;
 }
 
-.opinion{
+.opinion {
     display: flex;
     flex-direction: column;
     width: 75vw;
@@ -630,27 +531,27 @@ footer {
     text-align: center;
 }
 
-.opinion label{
+.opinion label {
     padding-bottom: 20px;
 }
 
-.botonesFormulario{
+.botonesFormulario {
     display: flex;
     padding-top: 20px;
     justify-content: space-around;
 }
 
-.botonesFormulario input{
+.botonesFormulario input {
     display: flex;
     margin-left: 20px;
 }
 
-.labelEmail{
+.labelEmail {
     padding-right: 20px;
 }
 
 
-textarea{
+textarea {
     width: 65vw;
 }
 
@@ -668,12 +569,66 @@ textarea{
     }
 
     .navDesktop {
-        display: none;
-    }
-
-    .navMobile {
         display: flex;
         justify-content: space-between;
+    }
+
+    .navDesktop {
+        display: flex;
+        justify-content: space-around;
+        align-items: stretch;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 2;
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.8);
+        box-shadow: 1px 1px 8px black;
+        transform: translateY(-94%);
+        transition: 1s;
+    }
+
+    .navDesktop:hover {
+        transform: translateY(-5%);
+        justify-content: flex-end;
+        align-items: stretch;
+        padding: 40px 0px;
+        height: 80vh;
+    }
+
+    .navDesktop ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .navDesktop:hover {
+        justify-content: space-around;
+    }
+
+    .navDesktop ul li {
+
+        border-top: 2px solid rgb(255, 255, 255);
+        width: 100%;
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .navDesktop ul li:first-child {
+        border-top: none;
+
+    }
+
+    .navDesktop ul li a {
+        color: rgb(238, 238, 238);
+        font-family: 'Baloo 2', cursive;
+        font-size: 5vw;
+    }
+
+    .navDesktop ul li a i {
+        transform: translateY(10px);
     }
 
     .logoHeader {
@@ -685,11 +640,11 @@ textarea{
     }
 
     .imageHistoriaLocal {
-        width: 200px;
+        width: 40vw;
     }
 
     .boton {
-        width: 100px;
+        width: 55%;
         margin: 0px auto;
 
     }
@@ -786,41 +741,17 @@ textarea{
         height: 280px;
     }
 
-    .imagenLocal {
-        width: 210px;
-        font-size: 25px;
+    .opcionesDeProbalo p {
+        font-size: 4vw;
     }
-
-    .imagenLocal img {
-        width: 200px;
-        height: 200px;
-    }
-
-    .imagenUbicacion {
-        width: 210px;
-        font-size: 25px;
-    }
-
-iframe {
-    width: 200px;
-    height: 200px;
-}
-
 }
 
 @media only screen and (min-width:577px) and (max-width:768px) {
 
-    .logoHeader {
-        width: 100px;
-    }
 
 
     main p {
         font-size: 14px
-    }
-
-    .imageHistoriaLocal {
-        width: 230px;
     }
 
     .iconos img {
@@ -915,17 +846,7 @@ iframe {
 
 }
 
-
 @media only screen and (min-width:769px) and (max-width:920px) {
-    .logoHeader {
-        width: 120px;
-    }
-
-    .imageHistoriaLocal {
-        width: 380px;
-
-
-    }
 
     .iconos img {
         width: 33px;
@@ -1009,23 +930,16 @@ iframe {
     }
 
 
-
     .seccionProductos img {
         width: 300px;
         height: 380px;
 
     }
 
-
-
-
 }
 
 @media only screen and (min-width:921px) and (max-width:1200px) {
 
-    .imageHistoriaLocal {
-        width: 340px;
-    }
 
     main p {
         font-size: 25px;
@@ -1116,13 +1030,55 @@ iframe {
 
     }
 
-    .ubicacion{
+    .ubicacion {
         align-items: center;
+    }
+
+}
+
+@media only screen and (min-width:260px) and (max-width:1199px) {
+
+
+    .imagenLocal img {
+        width: 40vw;
+        height: 40vw;
     }
 
 
 
+    .imagenLocal {
+        font-size: 5vw;
+    }
+
+    .imagenUbicacion {
+        font-size: 5vw;
+    }
+
+    iframe {
+        width: 40vw;
+        height: 40vw;
+    }
+
+    .datosContactoLocal img {
+        width: 5vw;
+    }
+
+    .datosUbicacion img {
+        width: 5vw;
+    }
+
+    .articleDondeEstamos div div a {
+        font-size: 4vw;
+    }
+
+    .opcionesDeProbalo img {
+            width: 40vw;
+        }
+
+        
 }
+
+
 
 @media only screen and (min-width:260px) and (max-width:991px) {
     main p {
@@ -1135,15 +1091,10 @@ iframe {
         font-size: 30px;
     }
 
-    .imageHistoriaLocal {
-        width: 400px;
-    }
+
 }
 
 @media (min-width:1551px) {
-    .imageHistoriaLocal {
-        width: 450px;
-    }
 
     main p {
         font-size: 35px;
@@ -1151,22 +1102,88 @@ iframe {
 }
 
 @media (min-width:577px) {
-    .navDesktop {
-        display: block;
-    }
 
-    .navMobile {
+    .flechaMenuAbajo {
         display: none;
     }
+
+    .navDesktop {
+        width: 100%;
+        margin: 30px auto;
+
+    }
+
+    ul {
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 0px;
+    }
+
+    .navDesktop ul li {
+        border: 2px solid black;
+        border-right: 0px solid black;
+        padding: 0px 10px;
+        margin: 0px;
+        color: black;
+        transition: 0.5s ease;
+
+    }
+
+    .navDesktop ul li:hover {
+        background-color: rgba(212, 212, 212, 0.918);
+
+    }
+
+    .navDesktop ul li a {
+        color: black;
+        font-size: 2.3vw;
+        font-family: 'Baloo 2', cursive;
+    }
+
+    .active {
+        background: color 0;
+        font-weight: bold;
+        font-style: italic;
+    }
+
+    .navDesktop ul li:nth-child(5) {
+        border-right: 2px solid black;
+    }
+
+    .imageHistoriaLocal {
+        width: 31vw;
+    }
+
+
 }
-@media (max-width: 1200px){
+
+@media (max-width: 1200px) {
     .ubicacion {
-            align-items: center;
-          
+        align-items: center;
+
+    }
 }
-}    
+
+@media (min-width: 1200px) {
+
+    .imagenLocal img {
+        width: 30vw;
+        height: 30vw;
+    }
+
+    iframe {
+        width: 30vw;
+        height: 30vw;
+    }
+
+    .opcionesDeProbalo img{
+        width: 30vw;
+    }
 
 
+}
 
 /* -------- FIN RESPONSIVE --------- */
 
@@ -1276,7 +1293,7 @@ main p {
         opacity: 1;
     }
 
-    
+
 }
 
 /*---------- FIN ANIMACIONES------------ */
