@@ -1,0 +1,54 @@
+@import "color";
+@import "tipografias";
+
+
+.logoHeader {
+    width: 15vw;
+    width: 100%;
+    transform: rotate(-8deg);
+    transition: 1s;
+
+    &:hover {
+        width: 17vw;
+    }
+}
+
+header {
+    margin-top: 50px;
+}
+
+.boxTitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.titleAndSubtitle {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid $bordes;
+    padding: 0px 15px;
+    margin: 10px auto;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+    a {
+        color: $color-letras;
+    }
+}
+
+h1 {
+    text-decoration: none;
+    color: $color-letras;
+    font-family: 'Bree Serif', serif;
+    font-size: 5vw;
+}
+
+h2 {
+    text-decoration: none;
+    color: $color-letras;
+    font-family: 'Oleo Script', cursive;
+    font-size: 3vw;
+}

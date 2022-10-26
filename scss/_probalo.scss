@@ -1,0 +1,40 @@
+@import "color";
+@import "tipografias";
+
+.opcionesDeProbalo {
+    img {
+        box-shadow: 0px 0px 14px rgb(135, 135, 135);
+        transition: 0.5s;
+
+        &:hover {
+            width: 31vw;
+        }
+    }
+}
+
+.opcionesDeProbalo {
+    div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin: 30px;
+        width: 100%;
+
+        a {
+            display: inline-block;
+            padding-bottom: 20px;
+            height: 100%;
+
+        }
+    }
+
+    p {
+        height: 30%;
+        font-size: 2vw;
+        justify-content: center;
+        text-align: center;
+        font-family: 'Baloo 2', cursive;
+    }
+}

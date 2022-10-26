@@ -1,0 +1,108 @@
+.logoHeader {
+    animation-duration: 0.8s;
+    animation-name: rotacion;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotacion {
+
+    25% {
+        transform: rotate(10deg);
+    }
+
+    50% {
+        transform: rotate(12deg);
+    }
+
+    75% {
+        transform: rotate(-15deg);
+    }
+
+    100% {
+        transform: rotate(-10deg);
+    }
+
+
+}
+
+main {
+    p {
+        animation-duration: 1.5s;
+        animation-name: aparecerPorIzquierda;
+        animation-iteration-count: 1;
+    }
+}
+
+.local {
+    animation-duration: 1.5s;
+    animation-name: aparecerPorIzquierda;
+    animation-iteration-count: 1;
+
+}
+
+@keyframes aparecerPorIzquierda {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0px)
+    }
+}
+
+.imageHistoriaLocal {
+    animation-duration: 1.5s;
+    animation-name: aparecerPorDerecha;
+    animation-iteration-count: 1;
+}
+
+.ubicacion {
+    animation-duration: 1.5s;
+    animation-name: aparecerPorDerecha;
+    animation-iteration-count: 1;
+}
+
+@keyframes aparecerPorDerecha {
+    0% {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0px)
+    }
+}
+
+.boton {
+    animation-duration: 1.5s;
+    animation-name: aparecer;
+    animation-iteration-count: 1;
+}
+
+.seccionProductos {
+    animation-duration: 1.5s;
+    animation-name: aparecer;
+    animation-iteration-count: 1;
+}
+
+.opcionesDeProbalo {
+    animation-duration: 1.5s;
+    animation-name: aparecer;
+    animation-iteration-count: 1;
+
+}
+
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+
+
+}

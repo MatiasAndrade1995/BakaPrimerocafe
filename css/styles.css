@@ -1,4 +1,3 @@
-/* SETEO DEFAULT */
 * {
   margin: 0;
   padding: 0;
@@ -7,16 +6,13 @@
 html {
   scroll-behavior: smooth; }
 
-/* SETEO DEFAULT */
-/*-------- HEADER DE PAGINAS ----------*/
 .logoHeader {
   width: 15vw;
   width: 100%;
   transform: rotate(-8deg);
   transition: 1s; }
-
-.logoHeader:hover {
-  width: 17vw; }
+  .logoHeader:hover {
+    width: 17vw; }
 
 header {
   margin-top: 50px; }
@@ -36,9 +32,8 @@ header {
   justify-content: center;
   text-align: center;
   align-items: center; }
-
-.titleAndSubtitle a {
-  color: black; }
+  .titleAndSubtitle a {
+    color: black; }
 
 h1 {
   text-decoration: none;
@@ -52,8 +47,6 @@ h2 {
   font-family: 'Oleo Script', cursive;
   font-size: 3vw; }
 
-/*---------- FIN HEADER DE PAGINAS ------------- */
-/* --------- INICIO DE MAIN DE PAGINA INDEX ----------*/
 .imageHistoriaLocal {
   box-shadow: 0px 0px 15px #8d8d8d; }
 
@@ -74,13 +67,13 @@ section {
 
 main {
   margin-top: 20px; }
-
-main p {
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: justify;
-  font-size: 25px;
-  padding: 0px 20px;
-  line-height: 1.5; }
+  main p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    font-size: 25px;
+    padding: 0px 20px;
+    line-height: 1.5;
+    color: black; }
 
 article {
   justify-content: center;
@@ -95,36 +88,31 @@ article {
   justify-content: center;
   text-align: center;
   align-items: center; }
+  .boton a {
+    display: inline-block;
+    background-color: #dadada;
+    text-decoration: none;
+    font-size: 3vw;
+    text-align: center;
+    border: solid 1px black;
+    padding: 20px;
+    color: black;
+    margin: 30px 0px 30px 0px;
+    font-family: 'Oleo Script';
+    transition: 0.5s; }
+    .boton a:hover {
+      box-shadow: 0px 0px 10px #8d8d8d;
+      font-size: 4vw;
+      padding: 10px 20px; }
 
-.boton a {
-  display: inline-block;
-  background-color: #eeeeee;
-  text-decoration: none;
-  font-size: 3vw;
-  text-align: center;
-  border: 1px black solid;
-  padding: 20px;
-  color: black;
-  margin: 30px 0px 30px 0px;
-  font-family: 'Oleo Script';
-  transition: 0.5s; }
-
-.boton a:hover {
-  box-shadow: 0px 0px 10px #8d8d8d;
-  font-size: 4vw;
-  padding: 10px 20px; }
-
-/* -------FIN DE MAIN DE PAGINA INDEX------- */
-/* -----INICIO DE MAIN DE PAGINA NUESTRASDELICIAS----- */
 .listaProductos {
   display: flex;
   flex-direction: row;
   justify-content: center;
   width: 100%;
   margin: 30px auto; }
-
-.listaProductos a {
-  color: black; }
+  .listaProductos a {
+    color: black; }
 
 .bordePostre {
   border-right: 2px solid black; }
@@ -136,17 +124,16 @@ article {
   font-size: 2vw;
   text-align: center;
   font-family: 'Oleo Script';
-  background-color: #e4e4e4; }
+  background-color: #dadada; }
 
 .seccionProductos {
   display: grid;
   grid-template-rows: 4; }
-
-.seccionProductos img {
-  width: 300px;
-  height: 380px;
-  object-fit: cover;
-  box-shadow: 0px 0px 10px #8d8d8d; }
+  .seccionProductos img {
+    width: 300px;
+    height: 380px;
+    object-fit: cover;
+    box-shadow: 0px 0px 10px #8d8d8d; }
 
 .cafes {
   display: grid;
@@ -168,17 +155,17 @@ article {
   text-align: center;
   align-items: stretch;
   width: 100%; }
-
-.boxImagesCafes div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  padding: 0px 10px;
-  width: 400px;
-  font-size: 25px;
-  text-decoration: underline 1px;
-  font-family: 'Oleo Script', cursive; }
+  .boxImagesCafes div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0px 10px;
+    width: 400px;
+    font-size: 25px;
+    color: black;
+    text-decoration: underline 1px;
+    font-family: "Oleo Script", cursive; }
 
 .titleCookies {
   text-align: center;
@@ -194,17 +181,17 @@ article {
   text-align: center;
   align-items: stretch;
   width: 100%; }
-
-.boxImagesCookies div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  padding: 0px 10px;
-  width: 400px;
-  font-size: 25px;
-  text-decoration: underline 1px;
-  font-family: 'Oleo Script', cursive; }
+  .boxImagesCookies div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0px 10px;
+    width: 400px;
+    font-size: 25px;
+    color: black;
+    text-decoration: underline 1px;
+    font-family: 'Oleo Script', cursive; }
 
 .titlePorciones {
   text-align: center;
@@ -220,17 +207,17 @@ article {
   text-align: center;
   align-items: stretch;
   width: 100%; }
-
-.boxImagesPorciones div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  padding: 0px 10px;
-  width: 400px;
-  font-size: 25px;
-  text-decoration: underline 1px;
-  font-family: 'Oleo Script', cursive; }
+  .boxImagesPorciones div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0px 10px;
+    width: 400px;
+    font-size: 25px;
+    color: black;
+    text-decoration: underline 1px;
+    font-family: 'Oleo Script', cursive; }
 
 .titlePostres {
   text-align: center;
@@ -246,62 +233,22 @@ article {
   text-align: center;
   align-items: stretch;
   width: 100%; }
+  .boxImagesPostres div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0px 10px;
+    width: 400px;
+    font-size: 25px;
+    text-decoration: underline 1px;
+    font-family: 'Oleo Script', cursive; }
 
-.boxImagesPostres div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  padding: 0px 10px;
-  width: 400px;
-  font-size: 25px;
-  text-decoration: underline 1px;
-  font-family: 'Oleo Script', cursive; }
-
-/* -----FIN DE MAIN DE PAGINA NUESTRASDELICIAS----- */
-/*-------- INICIO FOOTER DE PAGINAS--------- */
-footer {
-  background-color: #dadada;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 90px; }
-
-.CopyrightMatiasAndrade {
-  justify-content: start;
-  text-align: center;
-  font-size: 15px;
-  font-family: Arial, Helvetica, sans-serif; }
-
-.bakaEslogan {
-  justify-content: center;
-  text-align: center;
-  font-family: 'Oleo Script', cursive;
-  font-size: 20px; }
-
-.bakaEslogan a {
-  color: black; }
-
-.iconos {
-  justify-content: center;
-  text-align: center;
-  margin: 10px 0px; }
-
-.iconos a {
-  padding: 0px 15px; }
-
-.iconos img {
-  width: 45px; }
-
-/*------- FIN DE FOOTER DE PAGINAS --------- */
-/* INICIO PAGINA PROBALO */
 .opcionesDeProbalo img {
   box-shadow: 0px 0px 14px #878787;
   transition: 0.5s; }
-
-.opcionesDeProbalo img:hover {
-  width: 31vw; }
+  .opcionesDeProbalo img:hover {
+    width: 31vw; }
 
 .opcionesDeProbalo div {
   display: flex;
@@ -311,6 +258,10 @@ footer {
   align-items: center;
   margin: 30px;
   width: 100%; }
+  .opcionesDeProbalo div a {
+    display: inline-block;
+    padding-bottom: 20px;
+    height: 100%; }
 
 .opcionesDeProbalo p {
   height: 30%;
@@ -319,16 +270,9 @@ footer {
   text-align: center;
   font-family: 'Baloo 2', cursive; }
 
-.opcionesDeProbalo div a {
-  display: inline-block;
-  padding-bottom: 20px;
-  height: 100%; }
-
-/* FIN PAGINA PROBALO */
-/* INICIO PAGINA DONDE ESTAMOS */
 .articleDondeEstamos div div a {
   color: black;
-  font-family: 'Baloo 2', cursive;
+  font-family: "Baloo 2", cursive;
   font-size: 15px; }
 
 .datosContactoLocal a {
@@ -351,13 +295,12 @@ footer {
   border-bottom: 2px solid black;
   margin-bottom: 10px;
   font-size: 40px;
-  font-family: 'Oleo Script';
+  font-family: "Oleo Script", cursive;
   align-items: center; }
-
-.imagenLocal img {
-  margin-bottom: 20px;
-  object-fit: cover;
-  box-shadow: 0px 0px 10px #8d8d8d; }
+  .imagenLocal img {
+    margin-bottom: 20px;
+    object-fit: cover;
+    box-shadow: 0px 0px 10px #8d8d8d; }
 
 .ubicacion {
   display: flex;
@@ -370,7 +313,7 @@ footer {
   border-bottom: 2px solid black;
   margin-bottom: 10px;
   font-size: 40px;
-  font-family: 'Oleo Script';
+  font-family: "Oleo Script", cursive;
   align-items: center; }
 
 .mapa {
@@ -384,22 +327,20 @@ footer {
   padding: 0px 0px 20px 0px;
   width: 100%; }
 
-.datosContactoLocal img {
-  width: 3vw; }
-
 .datosUbicacion img {
   width: 3vw; }
 
 .datosUbicacion a {
   padding-left: 20px; }
 
+.datosContactoLocal img {
+  width: 3vw; }
+
 .local {
   display: flex;
   flex-direction: column;
   align-items: center; }
 
-/* FIN DE PAGINA DONDE ESTAMOS */
-/* INICIO PAGINA TU OPINION */
 .formulario {
   display: flex;
   flex-direction: column;
@@ -415,9 +356,8 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: flex-end; }
-
-.datosCliente div {
-  padding-top: 10px; }
+  .datosCliente div {
+    padding-top: 10px; }
 
 .opinion {
   display: flex;
@@ -427,18 +367,16 @@ footer {
   justify-content: center;
   align-items: center;
   text-align: center; }
-
-.opinion label {
-  padding-bottom: 20px; }
+  .opinion label {
+    padding-bottom: 20px; }
 
 .botonesFormulario {
   display: flex;
   padding-top: 20px;
   justify-content: space-around; }
-
-.botonesFormulario input {
-  display: flex;
-  margin-left: 20px; }
+  .botonesFormulario input {
+    display: flex;
+    margin-left: 20px; }
 
 .labelEmail {
   padding-right: 20px; }
@@ -446,16 +384,42 @@ footer {
 textarea {
   width: 65vw; }
 
-/* FIN DE PAGINA TU OPINION */
-/* --------- RESPONSIVE --------- */
+footer {
+  background-color: #dadada;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 90px; }
+
+.CopyrightMatiasAndrade {
+  justify-content: start;
+  text-align: center;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif; }
+
+.bakaEslogan {
+  justify-content: center;
+  text-align: center;
+  font-family: 'Oleo Script', cursive;
+  font-size: 20px; }
+  .bakaEslogan a {
+    color: black; }
+
+.iconos {
+  justify-content: center;
+  text-align: center;
+  margin: 10px 0px; }
+  .iconos a {
+    padding: 0px 15px; }
+  .iconos img {
+    width: 45px; }
+
 @media only screen and (min-width: 260px) and (max-width: 576px) {
   h1 {
     font-size: 25px; }
   h2 {
     font-size: 20px; }
-  .navDesktop {
-    display: flex;
-    justify-content: space-between; }
   .navDesktop {
     display: flex;
     justify-content: space-around;
@@ -466,36 +430,34 @@ textarea {
     z-index: 2;
     width: 100%;
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.87);
     box-shadow: 1px 1px 8px black;
     transform: translateY(-94%);
     transition: 1s; }
-  .navDesktop:hover {
-    transform: translateY(-5%);
-    justify-content: flex-end;
-    align-items: stretch;
-    padding: 40px 0px;
-    height: 80vh; }
-  .navDesktop ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 100%; }
-  .navDesktop:hover {
-    justify-content: space-around; }
-  .navDesktop ul li {
-    border-top: 2px solid white;
-    width: 100%;
-    text-align: center;
-    padding-top: 30px; }
-  .navDesktop ul li:first-child {
-    border-top: none; }
-  .navDesktop ul li a {
-    color: #eeeeee;
-    font-family: 'Baloo 2', cursive;
-    font-size: 5vw; }
-  .navDesktop ul li a i {
-    transform: translateY(10px); }
+    .navDesktop ul {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 100%; }
+      .navDesktop ul li {
+        border-top: 2px solid white;
+        width: 100%;
+        text-align: center;
+        padding-top: 30px; }
+        .navDesktop ul li:first-child {
+          border-top: none; }
+        .navDesktop ul li a {
+          color: white;
+          font-family: 'Baloo 2', cursive;
+          font-size: 5vw; }
+          .navDesktop ul li a i {
+            transform: translateY(10px); }
+    .navDesktop:hover {
+      transform: translateY(-5%);
+      justify-content: flex-end;
+      align-items: stretch;
+      padding: 40px 0px;
+      height: 80vh; }
   .logoHeader {
     display: none; }
   main p {
@@ -505,34 +467,56 @@ textarea {
   .boton {
     width: 55%;
     margin: 0px auto; }
-  .boton a {
-    font-size: 12px; }
+    .boton a {
+      font-size: 12px; }
   .iconos img {
     width: 30px; }
-  .titleCafes {
-    width: 200px; }
+  .opcionesDeProbalo p {
+    font-size: 4vw; } }
+
+@media only screen and (min-width: 260px) and (max-width: 1199px) {
+  .imagenLocal img {
+    width: 40vw;
+    height: 40vw; }
+  .imagenLocal {
+    font-size: 5vw; }
+  .imagenUbicacion {
+    font-size: 5vw; }
+  iframe {
+    width: 40vw;
+    height: 40vw; }
+  .datosContactoLocal img {
+    width: 5vw; }
+  .datosUbicacion img {
+    width: 5vw; }
+  .articleDondeEstamos div div a {
+    font-size: 4vw; }
+  .opcionesDeProbalo img {
+    width: 40vw; } }
+
+@media only screen and (min-width: 260px) and (max-width: 576px) {
   .listaProductos {
     display: flex;
     flex-direction: column;
-    width: 150px; }
-  .listaProductos a {
-    font-size: 18px; }
+    width: 200px; }
+    .listaProductos a {
+      font-size: 25px; }
   .seccionProductos {
     display: flex;
     flex-direction: column;
     justify-content: center; }
-  .seccionProductos article {
-    width: 220px; }
-  .seccionProductos h2 {
-    font-size: 40px; }
-  .seccionProductos article div div {
-    width: 220px;
-    padding-bottom: 20px;
-    font-size: 15px; }
-  .seccionProductos .boton {
-    width: 150px; }
-  .seccionProductos .boton a {
-    font-size: 15px; }
+    .seccionProductos h2 {
+      font-size: 50px; }
+    .seccionProductos article {
+      width: 250px; }
+      .seccionProductos article div div {
+        width: 250px;
+        padding-bottom: 20px;
+        font-size: 15px; }
+    .seccionProductos .boton {
+      width: 240px; }
+      .seccionProductos .boton a {
+        font-size: 17px; }
   .boxImagesCafes {
     display: flex;
     flex-direction: column;
@@ -559,9 +543,7 @@ textarea {
     text-align: center; }
   .seccionProductos img {
     width: 200px;
-    height: 280px; }
-  .opcionesDeProbalo p {
-    font-size: 4vw; } }
+    height: 220px; } }
 
 @media only screen and (min-width: 577px) and (max-width: 768px) {
   main p {
@@ -572,24 +554,27 @@ textarea {
     display: flex;
     flex-direction: column;
     width: 200px; }
-  .listaProductos a {
-    font-size: 25px; }
+    .listaProductos a {
+      font-size: 25px; }
   .seccionProductos {
     display: flex;
     flex-direction: column;
     justify-content: center; }
-  .seccionProductos article {
-    width: 450px; }
-  .seccionProductos h2 {
-    font-size: 80px; }
-  .seccionProductos article div div {
-    width: 450px;
-    padding-bottom: 20px;
-    font-size: 20px; }
-  .seccionProductos .boton {
-    width: 250px; }
-  .seccionProductos .boton a {
-    font-size: 25px; }
+    .seccionProductos img {
+      width: 300px;
+      height: 380px; }
+    .seccionProductos article {
+      width: 450px; }
+      .seccionProductos article div div {
+        width: 450px;
+        padding-bottom: 20px;
+        font-size: 20px; }
+    .seccionProductos h2 {
+      font-size: 80px; }
+    .seccionProductos .boton {
+      width: 250px; }
+      .seccionProductos .boton a {
+        font-size: 25px; }
   .boxImagesCafes {
     display: flex;
     flex-direction: column;
@@ -613,10 +598,7 @@ textarea {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-align: center; }
-  .seccionProductos img {
-    width: 300px;
-    height: 380px; } }
+    text-align: center; } }
 
 @media only screen and (min-width: 769px) and (max-width: 920px) {
   .iconos img {
@@ -625,24 +607,24 @@ textarea {
     display: flex;
     flex-direction: column;
     width: 200px; }
-  .listaProductos a {
-    font-size: 25px; }
+    .listaProductos a {
+      font-size: 25px; }
   .seccionProductos {
     display: flex;
     flex-direction: column;
     justify-content: center; }
-  .seccionProductos article {
-    width: 650px; }
-  .seccionProductos h2 {
-    font-size: 100px; }
-  .seccionProductos article div div {
-    width: 450px;
-    padding-bottom: 20px;
-    font-size: 30px; }
-  .seccionProductos .boton {
-    width: 250px; }
-  .seccionProductos .boton a {
-    font-size: 25px; }
+    .seccionProductos h2 {
+      font-size: 100px; }
+    .seccionProductos article {
+      width: 650px; }
+      .seccionProductos article div div {
+        width: 450px;
+        padding-bottom: 20px;
+        font-size: 30px; }
+    .seccionProductos .boton {
+      width: 250px; }
+      .seccionProductos .boton a {
+        font-size: 25px; }
   .boxImagesCafes {
     display: flex;
     flex-direction: column;
@@ -678,24 +660,24 @@ textarea {
     display: flex;
     flex-direction: column;
     width: 200px; }
-  .listaProductos a {
-    font-size: 25px; }
+    .listaProductos a {
+      font-size: 25px; }
   .seccionProductos {
     display: flex;
     flex-direction: column;
     justify-content: center; }
   .seccionProductos article {
     width: 650px; }
-  .seccionProductos h2 {
-    font-size: 100px; }
-  .seccionProductos article div div {
-    width: 450px;
-    padding-bottom: 20px;
-    font-size: 30px; }
+    .seccionProductos article div div {
+      width: 450px;
+      padding-bottom: 20px;
+      font-size: 30px; }
   .seccionProductos .boton {
     width: 250px; }
-  .seccionProductos .boton a {
-    font-size: 25px; }
+    .seccionProductos .boton a {
+      font-size: 25px; }
+  .seccionProductos h2 {
+    font-size: 100px; }
   .boxImagesCafes {
     display: flex;
     flex-direction: column;
@@ -726,26 +708,6 @@ textarea {
   .ubicacion {
     align-items: center; } }
 
-@media only screen and (min-width: 260px) and (max-width: 1199px) {
-  .imagenLocal img {
-    width: 40vw;
-    height: 40vw; }
-  .imagenLocal {
-    font-size: 5vw; }
-  .imagenUbicacion {
-    font-size: 5vw; }
-  iframe {
-    width: 40vw;
-    height: 40vw; }
-  .datosContactoLocal img {
-    width: 5vw; }
-  .datosUbicacion img {
-    width: 5vw; }
-  .articleDondeEstamos div div a {
-    font-size: 4vw; }
-  .opcionesDeProbalo img {
-    width: 40vw; } }
-
 @media only screen and (min-width: 260px) and (max-width: 991px) {
   main p {
     text-align: center; } }
@@ -764,31 +726,30 @@ textarea {
   .navDesktop {
     width: 100%;
     margin: 30px auto; }
-  ul {
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: 0px; }
-  .navDesktop ul li {
-    border: 2px solid black;
-    border-right: 0px solid black;
-    padding: 0px 10px;
-    margin: 0px;
-    color: black;
-    transition: 0.5s ease; }
-  .navDesktop ul li:hover {
-    background-color: rgba(212, 212, 212, 0.918); }
-  .navDesktop ul li a {
-    color: black;
-    font-size: 2.3vw;
-    font-family: 'Baloo 2', cursive; }
+    .navDesktop ul {
+      list-style-type: none;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin: 0px; }
+      .navDesktop ul li {
+        border: 2px solid black;
+        border-right: 0px solid black;
+        padding: 0px 10px;
+        margin: 0px;
+        transition: 0.5s ease; }
+        .navDesktop ul li:hover {
+          background-color: #dadada; }
+        .navDesktop ul li:nth-child(5) {
+          border-right: 2px solid black; }
+        .navDesktop ul li a {
+          color: black;
+          font-size: 2.3vw;
+          font-family: 'Baloo 2', cursive; }
   .active {
     background: color 0;
     font-weight: bold;
     font-style: italic; }
-  .navDesktop ul li:nth-child(5) {
-    border-right: 2px solid black; }
   .imageHistoriaLocal {
     width: 31vw; } }
 
@@ -806,8 +767,6 @@ textarea {
   .opcionesDeProbalo img {
     width: 30vw; } }
 
-/* -------- FIN RESPONSIVE --------- */
-/* --------- INICIO ANIMACIONES--------- */
 .logoHeader {
   animation-duration: 0.8s;
   animation-name: rotacion;
@@ -879,5 +838,3 @@ main p {
     opacity: 0; }
   100% {
     opacity: 1; } }
-
-/*---------- FIN ANIMACIONES------------ */

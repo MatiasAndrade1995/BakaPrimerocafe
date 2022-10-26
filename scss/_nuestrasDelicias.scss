@@ -1,0 +1,170 @@
+@import "color";
+@import "tipografias";
+
+.listaProductos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin: 30px auto;
+
+    a {
+        color: $color-letras;
+    }
+}
+
+.bordePostre {
+    border-right: 2px solid $bordes;
+}
+
+.producto {
+    border: 2px solid $bordes;
+    padding: 0px 15px;
+    color: $color-letras;
+    font-size: 2vw;
+    text-align: center;
+    font-family: 'Oleo Script';
+    background-color: $color-fondoCajas;
+}
+
+.seccionProductos {
+    display: grid;
+    grid-template-rows: 4;
+
+    img {
+        width: 300px;
+        height: 380px;
+        object-fit: cover;
+        box-shadow: 0px 0px 10px rgb(141, 141, 141);
+    }
+}
+
+.cafes {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+}
+
+.titleCafes {
+    text-align: center;
+    border-bottom: 2px solid $bordes;
+    color: $color-letras;
+    font-size: 100px;
+    margin: 10px 40px;
+}
+
+.boxImagesCafes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    align-items: stretch;
+    width: 100%;
+
+    div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 0px 10px;
+        width: 400px;
+        font-size: 25px;
+        color: $color-letras;
+        text-decoration: underline 1px;
+        font-family: $tipografia-A;
+    }
+}
+
+.titleCookies {
+    text-align: center;
+    border-bottom: 2px solid $bordes;
+    color: $color-letras;
+    font-size: 100px;
+    margin: 10px 40px;
+}
+
+.boxImagesCookies {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    align-items: stretch;
+    width: 100%;
+
+    div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 0px 10px;
+        width: 400px;
+        font-size: 25px;
+        color: $color-letras;
+        text-decoration: underline 1px;
+        font-family: 'Oleo Script', cursive;
+    }
+}
+
+
+
+.titlePorciones {
+    text-align: center;
+    border-bottom: 2px solid $bordes;
+    color: $color-letras;
+    font-size: 100px;
+    margin: 10px 40px;
+}
+
+.boxImagesPorciones {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    align-items: stretch;
+    width: 100%;
+
+    div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 0px 10px;
+        width: 400px;
+        font-size: 25px;
+        color: $color-letras;
+        text-decoration: underline 1px;
+        font-family: 'Oleo Script', cursive;
+    }
+}
+
+
+
+.titlePostres {
+    text-align: center;
+    border-bottom: 2px solid $bordes;
+    color: $color-letras;
+    font-size: 100px;
+    margin: 10px 40px;
+}
+
+.boxImagesPostres {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    align-items: stretch;
+    width: 100%;
+
+    div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 0px 10px;
+        width: 400px;
+        font-size: 25px;
+        text-decoration: underline 1px;
+        font-family: 'Oleo Script', cursive;
+    }
+}

@@ -1,0 +1,57 @@
+@import "color";
+@import "tipografias";
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid $bordes;
+    width: 85vw;
+    margin: 0px auto;
+    padding: 30px 0px;
+    font-family: 'Baloo 2', cursive;
+}
+
+.datosCliente {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    div {
+        padding-top: 10px;
+    }
+}
+
+.opinion {
+    display: flex;
+    flex-direction: column;
+    width: 75vw;
+    margin: 20px auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    label {
+        padding-bottom: 20px;
+    }
+}
+
+.botonesFormulario {
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-around;
+
+    input {
+        display: flex;
+        margin-left: 20px;
+    }
+}
+
+.labelEmail {
+    padding-right: 20px;
+}
+
+textarea {
+    width: 65vw;
+}
