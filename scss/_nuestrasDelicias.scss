@@ -1,5 +1,6 @@
 @import "color";
 @import "tipografias";
+@import "mixins";
 
 .listaProductos {
     display: flex;
@@ -8,13 +9,10 @@
     width: 100%;
     margin: 30px auto;
 
+
     a {
         color: $color-letras;
     }
-}
-
-.bordePostre {
-    border-right: 2px solid $bordes;
 }
 
 .producto {
@@ -25,7 +23,13 @@
     text-align: center;
     font-family: 'Oleo Script';
     background-color: $color-fondoCajas;
+
+    &:nth-child(4) {
+        border-right: 2px solid $bordes;
+    }
 }
+
+
 
 .seccionProductos {
     display: grid;
@@ -47,124 +51,49 @@
 }
 
 .titleCafes {
-    text-align: center;
-    border-bottom: 2px solid $bordes;
-    color: $color-letras;
-    font-size: 100px;
-    margin: 10px 40px;
+    @include titleProductos;
 }
 
 .boxImagesCafes {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    text-align: center;
-    align-items: stretch;
-    width: 100%;
+    @include boxImages;
 
     div {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        padding: 0px 10px;
-        width: 400px;
-        font-size: 25px;
-        color: $color-letras;
-        text-decoration: underline 1px;
-        font-family: $tipografia-A;
+        @include descriptionImage;
     }
 }
 
 .titleCookies {
-    text-align: center;
-    border-bottom: 2px solid $bordes;
-    color: $color-letras;
-    font-size: 100px;
-    margin: 10px 40px;
+    @include titleProductos;
 }
 
 .boxImagesCookies {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    text-align: center;
-    align-items: stretch;
-    width: 100%;
+    @include boxImages;
 
     div {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        padding: 0px 10px;
-        width: 400px;
-        font-size: 25px;
-        color: $color-letras;
-        text-decoration: underline 1px;
-        font-family: 'Oleo Script', cursive;
+        @include descriptionImage;
     }
 }
 
-
-
 .titlePorciones {
-    text-align: center;
-    border-bottom: 2px solid $bordes;
-    color: $color-letras;
-    font-size: 100px;
-    margin: 10px 40px;
+    @include titleProductos;
 }
 
 .boxImagesPorciones {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    text-align: center;
-    align-items: stretch;
-    width: 100%;
+    @include boxImages;
 
     div {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        padding: 0px 10px;
-        width: 400px;
-        font-size: 25px;
-        color: $color-letras;
-        text-decoration: underline 1px;
-        font-family: 'Oleo Script', cursive;
+        @include descriptionImage;
     }
 }
 
-
-
 .titlePostres {
-    text-align: center;
-    border-bottom: 2px solid $bordes;
-    color: $color-letras;
-    font-size: 100px;
-    margin: 10px 40px;
+    @include titleProductos;
 }
 
 .boxImagesPostres {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    text-align: center;
-    align-items: stretch;
-    width: 100%;
+    @include boxImages;
 
     div {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        padding: 0px 10px;
-        width: 400px;
-        font-size: 25px;
-        text-decoration: underline 1px;
-        font-family: 'Oleo Script', cursive;
+        @include descriptionImage;
     }
 }

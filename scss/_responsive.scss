@@ -46,7 +46,7 @@
 
                 a {
                     color: $color-contenidoNavMobile;
-                    font-family: 'Baloo 2', cursive;
+                    font-family: $tipografia-D;
                     font-size: 5vw;
 
                     i {
@@ -138,92 +138,95 @@
     }
 }
 
-@media only screen and (min-width:260px) and (max-width:576px)
-{
+@media only screen and (min-width:260px) and (max-width:576px) {
     .listaProductos {
-            display: flex;
-            flex-direction: column;
-            width: 200px;
-    
-            a {
-                font-size: 25px;
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+
+        a {
+            font-size: 25px;
+
+            &:nth-child(1n+2) {
+                border-top: 0px;
             }
         }
-    
-        .seccionProductos {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-    
-            h2 {
-                font-size: 50px;
-            }
-    
-            article {
-                width: 250px;
-    
-                div {
-                    div {
-                        width: 250px;
-                        padding-bottom: 20px;
-                        font-size: 15px;
-                    }
-                }
-            }
-    
-            .boton {
-                width: 240px;
-    
-                a {
-                    font-size: 17px;
-    
-                }
-            }
-        }
-    
-        .boxImagesCafes {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-    
-        }
-    
-        .boxImagesCookies {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-    
-        }
-    
-        .boxImagesPorciones {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-    
+    }
+
+    .seccionProductos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        h2 {
+            font-size: 50px;
         }
 
-        .boxImagesPostres {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-    
-        }
-    
-        .seccionProductos {
-            img {
-                width: 200px;
-                height: 220px;
-    
+        article {
+            width: 250px;
+
+            div {
+                div {
+                    width: 250px;
+                    padding-bottom: 20px;
+                    font-size: 15px;
+                }
             }
         }
+
+        .boton {
+            width: 240px;
+
+            a {
+                font-size: 17px;
+
+            }
+        }
+    }
+
+    .boxImagesCafes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    .boxImagesCookies {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    .boxImagesPorciones {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    .boxImagesPostres {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    .seccionProductos {
+        img {
+            width: 200px;
+            height: 220px;
+
+        }
+    }
 }
 
 @media only screen and (min-width:577px) and (max-width:768px) {
@@ -247,6 +250,10 @@
 
         a {
             font-size: 25px;
+
+            &:nth-child(1n+2) {
+                border-top: 0px;
+            }
         }
     }
 
@@ -337,6 +344,10 @@
 
         a {
             font-size: 25px;
+
+            &:nth-child(1n+2) {
+                border-top: 0px;
+            }
         }
     }
 
@@ -431,6 +442,10 @@
 
         a {
             font-size: 25px;
+
+            &:nth-child(1n+2) {
+                border-top: 0px;
+            }
         }
     }
 
@@ -578,7 +593,7 @@
                 a {
                     color: $color-letras;
                     font-size: 2.3vw;
-                    font-family: 'Baloo 2', cursive;
+                    font-family: $tipografia-D;
                 }
 
             }
@@ -603,6 +618,7 @@
         align-items: center;
 
     }
+
 }
 
 @media (min-width: 1200px) {
@@ -623,6 +639,10 @@
         img {
             width: 30vw;
         }
+    }
+
+    .producto {
+        border-right: 0px;
     }
 
 }

@@ -38,13 +38,13 @@ header {
 h1 {
   text-decoration: none;
   color: black;
-  font-family: 'Bree Serif', serif;
+  font-family: "Bree Serif", serif;
   font-size: 5vw; }
 
 h2 {
   text-decoration: none;
   color: black;
-  font-family: 'Oleo Script', cursive;
+  font-family: "Oleo Script", cursive;
   font-size: 3vw; }
 
 .imageHistoriaLocal {
@@ -98,7 +98,7 @@ article {
     padding: 20px;
     color: black;
     margin: 30px 0px 30px 0px;
-    font-family: 'Oleo Script';
+    font-family: "Oleo Script", cursive;
     transition: 0.5s; }
     .boton a:hover {
       box-shadow: 0px 0px 10px #8d8d8d;
@@ -114,9 +114,6 @@ article {
   .listaProductos a {
     color: black; }
 
-.bordePostre {
-  border-right: 2px solid black; }
-
 .producto {
   border: 2px solid black;
   padding: 0px 15px;
@@ -125,6 +122,8 @@ article {
   text-align: center;
   font-family: 'Oleo Script';
   background-color: #dadada; }
+  .producto:nth-child(4) {
+    border-right: 2px solid black; }
 
 .seccionProductos {
   display: grid;
@@ -191,7 +190,7 @@ article {
     font-size: 25px;
     color: black;
     text-decoration: underline 1px;
-    font-family: 'Oleo Script', cursive; }
+    font-family: "Oleo Script", cursive; }
 
 .titlePorciones {
   text-align: center;
@@ -217,7 +216,7 @@ article {
     font-size: 25px;
     color: black;
     text-decoration: underline 1px;
-    font-family: 'Oleo Script', cursive; }
+    font-family: "Oleo Script", cursive; }
 
 .titlePostres {
   text-align: center;
@@ -241,8 +240,9 @@ article {
     padding: 0px 10px;
     width: 400px;
     font-size: 25px;
+    color: black;
     text-decoration: underline 1px;
-    font-family: 'Oleo Script', cursive; }
+    font-family: "Oleo Script", cursive; }
 
 .opcionesDeProbalo img {
   box-shadow: 0px 0px 14px #878787;
@@ -268,7 +268,7 @@ article {
   font-size: 2vw;
   justify-content: center;
   text-align: center;
-  font-family: 'Baloo 2', cursive; }
+  font-family: "Baloo 2", cursive; }
 
 .articleDondeEstamos div div a {
   color: black;
@@ -350,7 +350,7 @@ article {
   width: 85vw;
   margin: 0px auto;
   padding: 30px 0px;
-  font-family: 'Baloo 2', cursive; }
+  font-family: "Baloo 2", cursive; }
 
 .datosCliente {
   display: flex;
@@ -401,7 +401,7 @@ footer {
 .bakaEslogan {
   justify-content: center;
   text-align: center;
-  font-family: 'Oleo Script', cursive;
+  font-family: "Oleo Script", cursive;
   font-size: 20px; }
   .bakaEslogan a {
     color: black; }
@@ -448,7 +448,7 @@ footer {
           border-top: none; }
         .navDesktop ul li a {
           color: white;
-          font-family: 'Baloo 2', cursive;
+          font-family: "Baloo 2", cursive;
           font-size: 5vw; }
           .navDesktop ul li a i {
             transform: translateY(10px); }
@@ -501,6 +501,8 @@ footer {
     width: 200px; }
     .listaProductos a {
       font-size: 25px; }
+      .listaProductos a:nth-child(1n+2) {
+        border-top: 0px; }
   .seccionProductos {
     display: flex;
     flex-direction: column;
@@ -556,6 +558,8 @@ footer {
     width: 200px; }
     .listaProductos a {
       font-size: 25px; }
+      .listaProductos a:nth-child(1n+2) {
+        border-top: 0px; }
   .seccionProductos {
     display: flex;
     flex-direction: column;
@@ -609,6 +613,8 @@ footer {
     width: 200px; }
     .listaProductos a {
       font-size: 25px; }
+      .listaProductos a:nth-child(1n+2) {
+        border-top: 0px; }
   .seccionProductos {
     display: flex;
     flex-direction: column;
@@ -662,6 +668,8 @@ footer {
     width: 200px; }
     .listaProductos a {
       font-size: 25px; }
+      .listaProductos a:nth-child(1n+2) {
+        border-top: 0px; }
   .seccionProductos {
     display: flex;
     flex-direction: column;
@@ -745,7 +753,7 @@ footer {
         .navDesktop ul li a {
           color: black;
           font-size: 2.3vw;
-          font-family: 'Baloo 2', cursive; }
+          font-family: "Baloo 2", cursive; }
   .active {
     background: color 0;
     font-weight: bold;
@@ -765,7 +773,9 @@ footer {
     width: 30vw;
     height: 30vw; }
   .opcionesDeProbalo img {
-    width: 30vw; } }
+    width: 30vw; }
+  .producto {
+    border-right: 0px; } }
 
 .logoHeader {
   animation-duration: 0.8s;
