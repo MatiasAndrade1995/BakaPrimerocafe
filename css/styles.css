@@ -6,6 +6,10 @@
 html {
   scroll-behavior: smooth; }
 
+body {
+  background-image: url(../images/fondo.png);
+  background-attachment: fixed; }
+
 .logoHeader {
   width: 15vw;
   width: 100%;
@@ -269,6 +273,9 @@ article {
   justify-content: center;
   text-align: center;
   font-family: "Baloo 2", cursive; }
+
+.fondoBlanco {
+  background-color: white; }
 
 .articleDondeEstamos div div a {
   color: black;
